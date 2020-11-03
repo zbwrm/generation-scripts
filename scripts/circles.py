@@ -26,5 +26,5 @@ def generate(filename, x_size=500, y_size=500):
 
 
 if __name__ == '__main__':
-    for i in range(10):
-        generate('images/test'+str(i)+'.png')
+    for i in range(5):
+        generate('../images/circles'+str(i+1)+'.png')

@@ -49,4 +49,5 @@ def generate(filename, x_size=500, y_size=500, num_points=100):
 
 
 if __name__ == '__main__':
-    generate('images/test.png')
+    for i in range(5):
+        generate('../images/voronoi'+str(i+1)+'.png')
