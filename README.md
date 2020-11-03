@@ -8,4 +8,8 @@ Places one "spotlight" for each RGB channel and saves an image of the final resu
 Uses recursion and the 'turtle' package to generate a little snowflake.
 
 ### voronoi.py
-Uses a brute-forced voronoi algorithm to make a cool gradient. 
+Uses a brute-forced voronoi algorithm to make a cool gradient.
+
+# TODO
+ - don't overwrite old images with new ones
+ - parameterize scripts so they can be called with values from the command line
